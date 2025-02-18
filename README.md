@@ -3,11 +3,10 @@
 ## 🚀 Installation
 
 1. **Build the Docker Image**
+
    ```sh
    docker build -t my-jupyter-image .
    ```
-
-````
 
 2. **Run the Jupyter Container**
 
@@ -27,6 +26,3 @@
    ```
 
 📌 Your Jupyter notebooks will now be accessible in VS Code or your browser!
-
-
-````
