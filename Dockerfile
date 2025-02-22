@@ -13,6 +13,10 @@ RUN apt-get update --yes && \
 
 RUN pip install --upgrade pip 
 COPY requirements.txt /home/requirements.txt
+COPY img/ img/
+COPY milvus_image_db.db .
+COPY animals_dataset/ animals_dataset/
+
 RUN pip install --no-cache-dir --upgrade -r /home/requirements.txt && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"

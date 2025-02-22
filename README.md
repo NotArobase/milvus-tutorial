@@ -25,3 +25,6 @@
    In VSCode, select a new kernel (existing jupyter server) and paste the URL:
 
 📌 Your Jupyter notebooks will now be accessible in VS Code !
+
+5. **Get the animals Dataset**
+Go to https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals?resource=download and download the dataset. Then put it in the foler animals_dataset/ (you should find the pictures of the animals in animals_dataset/animals/animals/** / *.)
