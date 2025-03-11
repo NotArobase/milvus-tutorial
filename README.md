@@ -1,4 +1,4 @@
-# Jupyter Notebook with Docker
+# Use this tutorial with Docker
 
 ## 🚀 Installation
 
